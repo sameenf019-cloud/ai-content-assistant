@@ -80,7 +80,7 @@ if generate_btn:
                         {"role": "system", "content": "You are a top-tier digital content strategist."},
                         {"role": "user", "content": prompt}
                     ],
-                    model="llama-3.1-8b-instant", 
+                    model="openai/gpt-oss-120b", 
                     temperature=0.7,
                 )
                 
