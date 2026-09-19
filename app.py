@@ -59,7 +59,7 @@ if st.button("Generate Content ✨"):
                         {"role": "system", "content": "You are a top-tier social media content creator."},
                         {"role": "user", "content": prompt}
                     ],
-                    model="llama-3.3-70b-versatile", 
+                    model="llama3-70b-8192", 
                     temperature=0.7,
                 )
                 
